@@ -23,16 +23,17 @@ namespace Presentacion
                 fila.Cells[1].Value = app.GetProducto(i).nombre;
                 fila.Cells[2].Value = app.GetProducto(i).detalle;
                 fila.Cells[3].Value = app.GetProducto(i).costo;
-                fila.Cells[4].Value = app.GetProducto(i).fechaCrea.Date.ToString();
-                fila.Cells[5].Value = app.GetProducto(i).fechaVec.Date.ToString();
-                fila.Cells[6].Value = app.GetProducto(i).categoria;
+                fila.Cells[4].Value = app.GetProducto(i).precio;
+                fila.Cells[5].Value = app.GetProducto(i).fechaCrea.Date.ToString();
+                fila.Cells[6].Value = app.GetProducto(i).fechaVec.Date.ToString();
+                fila.Cells[7].Value = app.GetProducto(i).categoria;
                 if (app.GetProducto(i).estado)
                 {
-                    fila.Cells[7].Value = "Activo";
+                    fila.Cells[8].Value = "Activo";
                 }
                 else
                 {
-                    fila.Cells[7].Value = "Inactivo";
+                    fila.Cells[8].Value = "Inactivo";
                 }
             }
 

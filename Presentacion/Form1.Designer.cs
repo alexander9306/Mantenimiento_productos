@@ -52,6 +52,7 @@
             this.dgvDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCosto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvCreado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvVence = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -194,6 +195,7 @@
             this.dgvDetalle,
             this.dgvCosto,
             this.dgvPrecio,
+            this.dgvCreado,
             this.dgvVence,
             this.dgvCategoria,
             this.dgvEstado});
@@ -259,6 +261,12 @@
             this.dgvPrecio.HeaderText = "Precio";
             this.dgvPrecio.Name = "dgvPrecio";
             this.dgvPrecio.ReadOnly = true;
+            // 
+            // dgvCreado
+            // 
+            this.dgvCreado.HeaderText = "Creado";
+            this.dgvCreado.Name = "dgvCreado";
+            this.dgvCreado.ReadOnly = true;
             // 
             // dgvVence
             // 
@@ -337,6 +345,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvDetalle;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvCosto;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvPrecio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvCreado;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvVence;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvCategoria;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvEstado;
